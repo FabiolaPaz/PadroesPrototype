@@ -1,0 +1,24 @@
+O Prototype é um padrão de projeto criacional que permite copiar objetos existentes sem fazer seu código ficar dependente de suas classes, e permite
+que você use um conjunto de objetos pré construídos, configurados de diversas formas, como protótipos.
+Ao invés de instanciar uma subclasse que coincide com alguma configuração, o cliente pode simplesmente procurar por um protótipo apropriado e cloná-lo.
+Esse padrão fornece um código ao cliente com uma interface geral para trabalhar com todos os objetos que suportam clonagem, fazendo o código do
+cliente ser independente das classes dos objetos que ele clona. Também pode ser usado para reduzir o número de subclasses que somente diferem na forma que 
+inicializam seus respectivos objetos. 
+
+Vantagens de usar Prototype:
+É fácil detectar erros;
+Clonar objetos em  acoplá-los a suas classes concretas;
+Se livrar de códigos de inicialização repetidos em troca de clonar protótipos pré-construídos;
+Poder produzir objetos complexos mais convenientemente;
+Tem uma alternativa para herança quando lidar com configurações pré determinadas para objetos complexos
+
+Desvantagens de usar Prototype: 
+Clonar objetos complexos que têm referências circulares pode ser bem complicado;
+É um modelo caro;
+Pode haver uma análise de problema incompleta ou inadequada;
+Pode aumentar a complexidade do sistema;
+Possui documentação deficiente devido às constantes mudanças nos requisitos do cliente;
+
+Referências da Prototype: 
+https://refactoring.guru/pt-br/design-patterns/prototype
+https://acervolima.com/vantagens-e-desvantagens-do-modelo-de-prototipo/
